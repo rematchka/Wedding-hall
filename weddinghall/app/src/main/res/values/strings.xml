@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">weddinghall</string>
+    <string name="title_activity__log_in_menu">_log_in_menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_listview">listview</string>
+    <string name="title_activity_edit_db_admin">Edit_db_admin</string>
+</resources>

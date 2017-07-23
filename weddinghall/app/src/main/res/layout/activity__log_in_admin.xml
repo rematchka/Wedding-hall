@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bbe0f7"
+    tools:context="com.rematchka.weddinghall._log_in_admin">
+
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#ffe6f2"
+        android:text="Edit Account"
+        android:textColor="#c12e9a"
+        android:id="@+id/edit_account_admin"
+
+
+        />
+
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#ffcce6"
+        android:text="Add Admins Account"
+        android:textColor="#c12e9a"
+        android:id="@+id/add_admin_account"
+
+        />
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#ffb3d9"
+        android:text="View Orders"
+        android:textColor="#c12e9a"
+        android:id="@+id/view_orders"
+
+        />
+    <TextView
+        style="@style/CategoryStyle"
+        android:textColor="#c12e9a"
+        android:id="@+id/add_festures"
+        android:text="Add features"
+        android:background="#ff80bf"
+        />
+    <TextView
+        style="@style/CategoryStyle"
+        android:textColor="#c12e9a"
+        android:id="@+id/edit_order"
+        android:text="Editting option "
+        android:background="#ff66b3"
+        />
+
+</LinearLayout>

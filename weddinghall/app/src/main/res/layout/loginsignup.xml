@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".loginsignup"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="horizontal"
+
+     >
+
+   <ViewFlipper
+      android:id="@+id/bckg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       >
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck6"
+           android:scaleType="fitXY"
+           android:src="@drawable/dress"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck1"
+           android:scaleType="fitXY"
+           android:src="@drawable/cakee"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck2"
+           android:scaleType="fitXY"
+           android:src="@drawable/cakejpg"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck3"
+           android:scaleType="fitXY"
+           android:src="@drawable/d4eed2da6164deb6f0d92ad2e"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck5"
+           android:scaleType="fitXY"
+           android:src="@drawable/dc95d8754b0180d37ef141c652a1af37"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck7"
+           android:scaleType="fitXY"
+           android:src="@drawable/elegant"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck9"
+           android:scaleType="fitXY"
+           android:src="@drawable/famous"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck10"
+           android:scaleType="fitXY"
+           android:src="@drawable/flowersjpg"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck11"
+           android:scaleType="fitXY"
+           android:src="@drawable/heartweddincake4"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck12"
+           android:scaleType="fitXY"
+           android:src="@drawable/hhh"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck13"
+           android:scaleType="fitXY"
+           android:src="@drawable/b52f10c236ae0f"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck14"
+           android:scaleType="fitXY"
+           android:src="@drawable/image1"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck15"
+           android:scaleType="fitXY"
+           android:src="@drawable/vintageweddingringswallpaper3"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck16"
+           android:scaleType="fitXY"
+           android:src="@drawable/wd"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck17"
+           android:scaleType="fitXY"
+           android:src="@drawable/wdiingring"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck18"
+           android:scaleType="fitXY"
+           android:src="@drawable/wedding_engagementwide"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck19"
+           android:scaleType="fitXY"
+           android:src="@drawable/weddingbouquetgroombridejpg"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/bck20"
+           android:scaleType="fitXY"
+           android:src="@drawable/weddingcouple"/>
+
+
+
+   </ViewFlipper>
+
+</LinearLayout>
+    <Button
+        android:id="@+id/sign_UP"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="500dp"
+        android:text="Sign Up"
+        android:background="#6db7c4"
+        android:layout_marginBottom="8sp"
+         />
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:text="log in"
+        android:layout_below="@id/sign_UP"
+        android:background="#cc6ca7"
+        />
+
+</RelativeLayout>

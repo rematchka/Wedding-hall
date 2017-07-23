@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+   android:orientation="vertical"
+    android:background="#bbe0f7"
+    tools:context="com.rematchka.weddinghall._log_in_menu_user">
+<TextView
+     style="@style/CategoryStyle"
+    android:background="#ffcccc"
+    android:text="Edit Account"
+    android:textColor="#c12e9a"
+    android:id="@+id/edit_account"
+
+
+    />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#ffb3b3"
+        android:text="View Account Orders"
+        android:textColor="#c12e9a"
+        android:id="@+id/view_account"
+
+        />
+    <TextView
+        style="@style/CategoryStyle"
+        android:textColor="#c12e9a"
+        android:id="@+id/new_festures"
+        android:text="New added features"
+        android:background="#ff9999"
+        />
+    <TextView
+        style="@style/CategoryStyle"
+        android:textColor="#c12e9a"
+        android:id="@+id/make_order"
+        android:text="Make Order"
+        android:background="#ff8080"
+         />
+
+
+</LinearLayout>

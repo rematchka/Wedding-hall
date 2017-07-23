@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rematchka.weddinghall.edit_admin_db"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="60dp">
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="buffet options"
+        android:id="@+id/buffetOptions"
+        android:layout_marginTop="10dp"
+        android:textColor="#056a22"
+        android:onClick="buffetActivity"/>
+
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buffetOptions"
+        android:text="photographers options"
+        android:onClick="photographersActivity"
+        android:id="@+id/photographyOptions"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#056a22" />
+
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/photographyOptions"
+        android:text="packages options"
+        android:id="@+id/packagesOptions"
+        android:layout_marginTop="10dp"
+        android:onClick="packagesActivity"
+        android:layout_gravity="center"
+        android:textColor="#056a22" />
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/packagesOptions"
+        android:text="decoration options"
+        android:id="@+id/decorationOptions"
+        android:layout_marginTop="10dp"
+        android:onClick="decorationActivity"
+        android:layout_gravity="center"
+        android:textColor="#056a22" />
+
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/decorationOptions"
+        android:text="accessories options"
+        android:id="@+id/accessoriesOptions"
+        android:layout_marginTop="10dp"
+        android:onClick="accessoriesActivity"
+        android:layout_gravity="center"
+        android:textColor="#056a22" />
+    </LinearLayout>
+
+</LinearLayout>

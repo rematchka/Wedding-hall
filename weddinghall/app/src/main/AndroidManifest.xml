@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rematchka.weddinghall">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    "
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/logo"
+        android:label="Wedding Hall"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".logo" />
+        <activity android:name=".loginsignup" />
+        <activity android:name=".Sign_up" />
+        <activity android:name=".Log_in" />
+        <activity android:name="._log_in_menu_user" />
+        <activity android:name=".EditAccountClient" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="._log_in_admin" />
+        <activity android:name="._add_admins" />
+        <activity android:name="._Edit_Account_Admin" />
+        <activity android:name="._songs_playlist" />
+        <activity android:name="._item_list" />
+        <activity android:name="._payment" />
+        <activity android:name="._order" />
+        <activity android:name=".edit_admin_db" />
+        <activity android:name=".decor_option" />
+        <activity android:name=".buffet_option" />
+        <activity android:name=".pckg_option" />
+        <activity android:name=".photographer_option" />
+        <activity android:name=".accs_option" />
+        <activity android:name=".add_photographer" />
+        <activity android:name=".choose_photographer" />
+        <activity android:name=".choose_buffet_items" />
+        <activity android:name=".buffet_drinks" />
+        <activity android:name=".buffet_lunch" />
+        <activity android:name=".buffet_cake" />
+        <activity android:name=".buffet_appetizers" />
+        <activity android:name=".buffet_items_in_ctaegories" />
+        <activity android:name=".buffet_drinks_items" />
+        <activity android:name=".accs_items_order" />
+        <activity android:name=".decor_order_item" />
+        <activity android:name=".delete_photographer" />
+        <activity android:name="._add_accs" />
+        <activity android:name=".admin_view_orders" />
+        <activity android:name="._delete_accs" />
+        <activity android:name=".delete_decor" />
+        <activity android:name=".add_decor" />
+        <activity android:name="._package_option" />
+        <activity android:name="._add_package" />
+        <activity android:name=".delete_package" />
+        <activity android:name="._add_buffet_item" />
+        <activity android:name=".delete_buffet_item" />
+        <activity android:name="._delete_buffet_item" />
+        <activity android:name="._edit_buffet_items" />
+        <activity android:name="._edit_photographer" />
+        <activity android:name="._edit_packg" />
+        <activity android:name="._edit_decoration" />
+        <activity android:name="._edit_accs" />
+        <activity android:name="._user_view_reservation" />
+        <activity android:name="._admin_view_reser"></activity>
+    </application>
+
+</manifest>
